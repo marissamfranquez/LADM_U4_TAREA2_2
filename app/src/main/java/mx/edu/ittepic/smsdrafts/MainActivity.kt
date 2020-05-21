@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             viewDrafts()
-            // siNoJalaElDeArriba() Por si el de arriba no funciona, manda a llamar este cuando ejecutes la app
+            
         }
     }
 
@@ -41,17 +41,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun siNoJalaElDeArriba(){
-        // Si no te muestra ningun borrador, manda a llamar mejor este metodo y metelos de forma manual
-        //para que, cuando corras la aplicación si te muestre algo
-        textView.text = "BORRADORES:\n"
-        textView.append("\nNÚMERO:3114032918\nMensaje:MAÑA TE VEO A LAS 6 CON MI TIA LOLAA EHH\n" +
-                "*****************\n")
-        textView.append("\nNÚMERO:3231343870\nMensaje:OYE DICE RICARDO QUE SI LE PUEDES MANDAR EL ARCHIVO PDF DE FIC\n" +
-                "*****************\n")
-        textView.append("\nNÚMERO:3110342241\nMensaje:no me llego nada en la tarjetaaaaa!!\n" +
-                "*****************\n")
-        textView.append("\nNÚMERO:3118493276\nMensaje:VOY A CANCELAR LA CUENTA DE NETFLIX SORRY :(\n" +
-                "*****************\n")
-    }
 }
